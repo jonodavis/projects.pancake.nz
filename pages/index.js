@@ -13,13 +13,18 @@ const Index = () => {
       <p>here are some of the projects i have worked on:</p>
       <ul>
         <li>
-          <Link href="/">
-            <a>home</a>
+          <Link href="/lcs-spring">
+            <a>LCS spring predictions</a>
           </Link>
         </li>
         <li>
-          <Link href="/lcs-spring">
-            <a>lcs spring predictions</a>
+          <Link href="/lec-spring">
+            <a>LEC spring predictions</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/lck-spring">
+            <a>LCK spring predictions</a>
           </Link>
         </li>
         <li>
