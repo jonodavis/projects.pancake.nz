@@ -10,10 +10,10 @@ const StandingsTable = ({ teams, logos }) => {
         <thead>
           <tr>
             <th className="eloRatingHeader">Elo Rating</th>
-            <th className="changeHeader">1-Week Change</th>
+            <th className="changeHeader">1-Game Change</th>
             <th className="logoHeader"></th>
             <th className="teamNameHeader">Team</th>
-            <th className="recordHeader">Regular Season Record</th>
+            <th className="recordHeader">Total Game Record</th>
             <th className="killsHeader">Kills</th>
             <th className="deathsHeader">Deaths</th>
           </tr>

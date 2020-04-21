@@ -32,7 +32,7 @@ const MatchList = ({ matches, logos }) => {
             <h3 className="dateString">{date}</h3>
             <div className="bar"></div>
             <div className="matchDay">
-              {matchesGroupedByDate[date].map((match) => {
+              {matchesGroupedByDate[date].reverse().map((match) => {
                 return (
                   <MatchCard
                     key={match["100"].gameid}

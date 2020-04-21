@@ -9,7 +9,9 @@ const StandingsRow = ({ teamName, teamLogo, teamData }) => (
     <td className="logoData">
       <img src={teamLogo}></img>
     </td>
-    <td className="teamNameData">{teamName}</td>
+    <td className="teamNameData">
+      {teamName === "Cloud9" ? "Cloud9 🏆" : teamName}
+    </td>
     <td className="recordData">
       {teamData.wins}-{teamData.loses}
     </td>

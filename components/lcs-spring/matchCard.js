@@ -1,5 +1,8 @@
 const MatchCard = ({ match, logos }) => (
   <div className="matchCard">
+    <p className="timeString">
+      {new Date(match["100"].date).toLocaleTimeString()}
+    </p>
     <table>
       <tbody>
         <tr>
@@ -30,8 +33,19 @@ const MatchCard = ({ match, logos }) => (
         min-width: 30%;
         max-width: 30%;
         margin-bottom: 30px;
+      }
+
+      table {
         border-radius: 12px;
         border: 1px solid #333333;
+        border-spacing: 0;
+      }
+
+      .timeString {
+        margin: auto auto 0 10px;
+        font-family: Roboto Mono;
+        color: #999999;
+        font-size: 12px;
       }
 
       .matchCard td {
@@ -81,10 +95,6 @@ const MatchCard = ({ match, logos }) => (
       img {
         width: 28px;
         height: 28px;
-      }
-
-      table {
-        border-collapse: collapse;
       }
     `}</style>
   </div>
