@@ -2,6 +2,7 @@ import Head from "next/head"
 import LCKHeader from "../components/lck-spring/LCKheader"
 import StandingsTable from "../components/lcs-spring/standingsTable"
 import MatchList from "../components/lcs-spring/matchList"
+import Header from "../components/index/header"
 import fetch from "isomorphic-unfetch"
 
 const LCKSpring = (props) => {
@@ -33,7 +34,7 @@ const LCKSpring = (props) => {
         <title>2020 LCK Spring</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header />
       <div className="container">
         <LCKHeader />
         <h2>Standings</h2>
