@@ -1,7 +1,7 @@
 const LCSHeader = () => (
   <div className="LCSHeader">
     <h1>2020 LCS Spring Predictions</h1>
-    <p className="timestamp">Updated: Monday, 20 April 2020</p>
+    <p className="timestamp">Updated: Thursday, 23 April 2020</p>
     <p>
       LCS predictions are based of a slightly modified version of the{" "}
       <a href="https://en.wikipedia.org/wiki/Elo_rating_system" target="_blank">
