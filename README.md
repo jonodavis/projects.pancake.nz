@@ -2,3 +2,5 @@
 ## projects.pancake.nz
 
 This is the repo for [projects.pancake.nz](https://projects.pancake.nz) the site I use to host some projects I have worked on that don't deserve their on domains.
+
+Use `yarn dev` to start development server
