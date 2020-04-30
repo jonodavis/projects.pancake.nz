@@ -11,7 +11,15 @@ const Index = () => {
       </Head>
 
       <Header />
-
+      <p>
+        Welcome to projects.pancake.nz. If you are looking for my main website
+        head over to <a href="https://pancake.nz">pancake.nz</a>. I use this
+        website as an index of all the projects I have worked on. Some of the
+        projects below are hosted on this site whilst others on their own
+        domains or just github repos. This site is built using Next.js and is
+        hosted on Netlify. You can see the source code{" "}
+        <a href="https://github.com/jonodavis/projects.pancake.nz">here</a>.
+      </p>
       <p>here are some of the projects i have worked on:</p>
       <ul>
         <li>
@@ -34,6 +42,25 @@ const Index = () => {
         </li>
         <li>
           <a href="https://stayhome.nz/dashboard">nz coronavirus dashboard</a>
+        </li>
+        <li>
+          <a href="https://github.com/jonodavis/nectar">
+            nectar - cryptocurrency trading bot
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/jonodavis/spotifylyrics">spotifylyrics</a>
+        </li>
+        <li>
+          <a href="https://github.com/jonodavis/dgg-client">
+            destiny.gg chat client
+          </a>
+        </li>
+        <li>
+          <a href="https://pancake.nz/hexclock.html">hexclock</a>
+        </li>
+        <li>
+          <a href="https://pancake.nz/life">life - clicker game</a>
         </li>
       </ul>
 
