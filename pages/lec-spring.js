@@ -58,13 +58,6 @@ const LECSpring = (props) => {
           margin: 0;
           padding: 0;
         }
-        a {
-          color: rgb(139, 139, 246);
-          text-decoration: none;
-        }
-        a:hover {
-          text-decoration: underline;
-        }
         ::selection {
           background: rgba(139, 139, 246, 0.565);
         }
