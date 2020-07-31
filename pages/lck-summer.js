@@ -1,7 +1,7 @@
 import Head from "next/head"
-import LCKHeader from "../components/lck-spring/LCKheader"
-import StandingsTable from "../components/lcs-spring/standingsTable"
-import MatchList from "../components/lcs-spring/matchList"
+import LCKHeader from "../components/lck-summer/LCKheader"
+import StandingsTable from "../components/lcs-summer/standingsTable"
+import MatchList from "../components/lcs-summer/matchList"
 import Header from "../components/index/header"
 import fetch from "isomorphic-unfetch"
 
@@ -19,8 +19,8 @@ const LCKSpring = (props) => {
       "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/f/f8/KT_Rolsterlogo_square.png/123px-KT_Rolsterlogo_square.png?version=8601e35042b9779b272b50463b438d2f",
     "SeolHaeOne Prince":
       "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/c/cc/SeolHaeOne_Princelogo_square.png?version=82c07b24e2aa21662881ee49bf64b3bf",
-    Griffin:
-      "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/6/6a/Griffinlogo_square.png/123px-Griffinlogo_square.png?version=5e954676335234b9f3e44c12b0185a5c",
+    "Team Dynamics":
+      "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/4/48/Team_Dynamicslogo_profile.png?version=affe39fec3859cdbfb7905c9384559dd",
     "Hanwha Life Esports":
       "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/a/a6/Hanwha_Life_Esportslogo_square.png/123px-Hanwha_Life_Esportslogo_square.png?version=952129656d8c0f16fbaaffa9f88c822a",
     "Afreeca Freecs":
@@ -31,7 +31,7 @@ const LCKSpring = (props) => {
   return (
     <div className="container">
       <Head>
-        <title>2020 LCK Spring</title>
+        <title>2020 LCK Summer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
@@ -68,12 +68,12 @@ const LCKSpring = (props) => {
 
 LCKSpring.getInitialProps = async function () {
   const resTeams = await fetch(
-    "https://raw.githubusercontent.com/jonodavis/lcs-elo-backend/master/out/LCKteams.json"
+    "https://raw.githubusercontent.com/jonodavis/lcs-elo-backend/master/out/summer/LCKteams.json"
   )
   const teams = await resTeams.json()
 
   const resMatches = await fetch(
-    "https://raw.githubusercontent.com/jonodavis/lcs-elo-backend/master/out/LCKmatches.json"
+    "https://raw.githubusercontent.com/jonodavis/lcs-elo-backend/master/out/summer/LCKmatches.json"
   )
   const matches = await resMatches.json()
 

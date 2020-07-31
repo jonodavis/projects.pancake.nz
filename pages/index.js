@@ -38,6 +38,21 @@ const Index = () => {
           </Link>
         </li>
         <li>
+          <Link href="/lcs-summer">
+            <a>LCS summer predictions</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/lec-summer">
+            <a>LEC summer predictions</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/lck-summer">
+            <a>LCK summer predictions</a>
+          </Link>
+        </li>
+        <li>
           <a href="https://stayhome.nz">stayhome.nz</a>
         </li>
         <li>
