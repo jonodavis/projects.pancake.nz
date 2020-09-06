@@ -67,7 +67,7 @@ const LCSSummer = (props) => {
   )
 }
 
-export async function getServerSideProps() {
+LCSSummer.getInitialProps = async function () {
   const resTeams = await fetch(
     "https://raw.githubusercontent.com/jonodavis/lcs-elo-backend/master/out/summer/LCSteams.json"
   )
