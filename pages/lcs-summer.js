@@ -78,7 +78,7 @@ LCSSummer.getInitialProps = async function () {
   )
   const matches = await resMatches.json()
 
-  return { props:{teams: teams, matches: matches.reverse()} }
+  return { teams: teams, matches: matches.reverse() }
 }
 
 export default LCSSummer
