@@ -1,8 +1,13 @@
 const MatchCard = ({ match, logos }) => (
   <div className="matchCard">
-    <p className="timeString">
-      {new Date(match["100"].date).toLocaleTimeString()}
-    </p>
+    <div className="topLabel">
+      <p className="timeString">
+        {new Date(match["100"].date).toLocaleTimeString()}
+      </p>
+      <p className="playoffs">
+        {match["100"].playoffs === "1" ? "PLAYOFFS": ""}
+      </p>
+    </div>
     <table>
       <tbody>
         <tr>
@@ -41,10 +46,21 @@ const MatchCard = ({ match, logos }) => (
         border-spacing: 0;
       }
 
+      .topLabel {
+        display: flex;
+      }
+
       .timeString {
         margin: auto auto 0 10px;
         font-family: Roboto Mono;
         color: #999999;
+        font-size: 12px;
+      }
+
+      .playoffs {
+        margin: auto 10px 0 auto;
+        font-family: Roboto Mono;
+        color: #d4af37;
         font-size: 12px;
       }
 

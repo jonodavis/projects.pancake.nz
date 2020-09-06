@@ -52,7 +52,6 @@ const StandingsRow = ({ teamName, teamLogo, teamData }) => (
       .teamNameData {
         text-align: left;
         font-family: CircularStd;
-        font-weight: 600;
       }
 
       .recordData {
