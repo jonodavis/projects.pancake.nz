@@ -66,7 +66,7 @@ const LCKSpring = (props) => {
   )
 }
 
-LCKSpring.getInitialProps = async function () {
+export async function getStaticProps() {
   const resTeams = await fetch(
     "https://raw.githubusercontent.com/jonodavis/lcs-elo-backend/master/out/LCKteams.json"
   )
@@ -77,7 +77,7 @@ LCKSpring.getInitialProps = async function () {
   )
   const matches = await resMatches.json()
 
-  return { teams: teams, matches: matches.reverse() }
+  return { props: {teams: teams, matches: matches.reverse()} }
 }
 
 export default LCKSpring
