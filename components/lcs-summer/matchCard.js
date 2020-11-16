@@ -4,6 +4,7 @@ const MatchCard = ({ match, logos }) => (
       <p className="timeString">
         {new Date(match["100"].date).toLocaleTimeString()}
       </p>
+      {/* gold text to indicate playoffs */}
       <p className="playoffs">
         {match["100"].playoffs === "1" ? "PLAYOFFS": ""}
       </p>
