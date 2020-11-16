@@ -1,7 +1,7 @@
 const LCKHeader = () => (
   <div className="LCKHeader">
     <h1>2020 LCK Summer Predictions</h1>
-    <p className="timestamp">Updated: Monday, 20 July 2020</p>
+    <p className="timestamp">Updated: Monday, 16 November 2020</p>
     <p>
       The LCK is the top level of professional League of Legends in South
       Korea. Predictions are based of a slightly modified version of the{" "}

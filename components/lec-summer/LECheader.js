@@ -1,7 +1,7 @@
 const LECHeader = () => (
   <div className="LECHeader">
     <h1>2020 LEC Summer Predictions</h1>
-    <p className="timestamp">Updated: Monday, 20 July 2020</p>
+    <p className="timestamp">Updated: Monday, 16 November 2020</p>
     <p>
       The LEC is the top level of professional League of Legends in Europe. Predictions are based of a slightly modified version of the{" "}
       <a href="https://en.wikipedia.org/wiki/Elo_rating_system" target="_blank">

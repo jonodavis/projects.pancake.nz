@@ -1,7 +1,7 @@
 const LCSHeader = () => (
   <div className="LCSHeader">
     <h1>2020 LCS Summer Predictions</h1>
-    <p className="timestamp">Updated: Monday, 20 July 2020</p>
+    <p className="timestamp">Updated: Monday, 16 November 2020</p>
     <p>
       The LCS is the top level of professional League of Legends in North
       America. Predictions are based of a slightly modified version of the{" "}
